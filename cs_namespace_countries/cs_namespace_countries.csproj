@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Countries\Beijing.cs" />
+    <Compile Include="Countries\Country.cs" />
     <Compile Include="Countries\Moskov.cs" />
     <Compile Include="Countries\NewDelhi.cs" />
     <Compile Include="Program.cs" />

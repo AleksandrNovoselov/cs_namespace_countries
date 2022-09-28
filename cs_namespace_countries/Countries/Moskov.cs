@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using cs_namespace_countries.Countries;
 
 namespace Russia
 {
-    internal class Moskov
+    internal class Moskov : Country
     {
-        private int population = 12632409;
-
-       public int Population { get=> population; }
+        public Moskov()
+        {
+            population = 12_632_409;
+        }
     }
 }

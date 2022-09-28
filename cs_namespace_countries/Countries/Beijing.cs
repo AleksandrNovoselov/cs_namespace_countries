@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using cs_namespace_countries.Countries;
 
 namespace China
 {
-    internal class Beijing
+    internal class Beijing : Country
     {
-        private int population = 21705000;
-
-        public int Population { get => population; }
+        public Beijing()
+        {
+            population = 21705000;
+        }
     }
 }
